@@ -7,8 +7,9 @@ package learn_java;
 import java.util.Scanner; // Importation de la classe Scanner se trouvant dans le paquetage java.util
 
 /**
- *
+ * Test
  * @author Morgan Fendrix
+ * @version 0.02
  */
 public class Learn_Java
 {
