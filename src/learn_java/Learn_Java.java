@@ -80,5 +80,13 @@ public class Learn_Java
         char test9 = test8.charAt(0); // test9 prend la valeur de la premiere lettre car position 0
         System.out.println("\t Vous avez saisi le caractère : " + test9);
         
+        /*  Petit point sur nextLine() et nextInt, Long, Float, Double, etc
+        
+            Après l'utilisation d'un nextInt, Long, Float, Double, etc, il est capital de vider la ligne
+            Pour ce faire, il suffit d'un "<variable>.nextLine();" avant de pouvoir faire un nextLine
+            Car celui-ci replace la tete de lecture sur une nouvelle ligne
+            ATTENTION : nextChar() n'existe pas
+        
+        */
     }   
 }
