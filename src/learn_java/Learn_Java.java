@@ -74,5 +74,11 @@ public class Learn_Java
         System.out.println("\t Vous avez saisi : " + mot);
         System.out.println("\t Vous avez saisi : " + nombre);
         
+        System.out.println("\t Saisissez une lettre :");
+        Scanner sc1 = new Scanner(System.in);
+        String test8 = sc1.nextLine();
+        char test9 = test8.charAt(0); // test9 prend la valeur de la premiere lettre car position 0
+        System.out.println("\t Vous avez saisi le caractère : " + test9);
+        
     }   
 }
