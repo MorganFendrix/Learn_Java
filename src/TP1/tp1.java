@@ -14,14 +14,34 @@ public class tp1
 {
     public static void main(String[] args)
     {
-        int loop = 1;
-        while (loop == 1)
+        // Initialisation de l'objet Scanner
+        Scanner sc = new Scanner(System.in); 
+        
+        // Initialisation des variables
+        double ToConv, Conv = 0;
+        char answer = 'O', selection =' ';
+        
+        System.out.println("-------------------------------------------------");
+        System.out.println("CONVERTISSEUR DEGRES CELSIUS ET DEGRES FAHRENHEIT");
+        System.out.println("-------------------------------------------------");
+        
+        while (answer == 'O')
         {
-            System.out.println("Bonjour !");
-            System.out.println("Quel conversion souhaitez-vous faire ?");
-            System.out.println("Celsius vers Fahrenheit ? Faites 1 ");
-            System.out.println("Farenheit vers Celsius ? Faites 2 ");
+            while (selection == ' ' || selection == '1' || selection == '2')
+            {
+                System.out.println("Choississez le mode de conversion :");
+                System.out.println("1 - Convertisseur Celsius - Farhenheit");
+                System.out.println("2 - Convertisseur Farhenheit - Celsius");
+                selection = sc.nextLine().charAt(0); 
+            }
+            System.out.println("Mauvaise réponse, veuillez réitérer !");
         }
+        System.out.println("Au revoir !");
+                    
+                
+        
+        
+        
     }
     
 }
